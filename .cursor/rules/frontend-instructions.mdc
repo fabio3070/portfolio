@@ -1,0 +1,14 @@
+---
+description: Next.js + React component best practices
+globs: src/**/*.{tsx,ts} 
+alwaysApply: true
+---
+
+# Next.js + React Best Practices
+
+- Prefer **server components** in `app` router; only use client components when you need state, effects, or browser APIs.
+- Keep components **presentational and small**; extract complex logic to hooks (`useSomething`) or utilities.
+- Use **TypeScript** everywhere; no `any` unless unavoidable and documented.
+- When using **TypeScript** dont use `as` to override types.
+- Use **semantic HTML** and accessible components (labels, ARIA where needed).
+- Avoid unnecessary `useEffect`; prefer derived values, `useMemo`, or server-side data.

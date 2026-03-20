@@ -1,0 +1,16 @@
+---
+description: Always use context7 MCP docs for library and framework questions
+alwaysApply: true
+---
+
+# context7 Usage Default
+
+- For any question involving **libraries, frameworks, tools, or APIs**, prefer using the **context7 MCP documentation tools by default** to fetch up-to-date docs and examples.
+- When answering:
+  - Base explanations and code samples on the **latest official documentation** retrieved via context7 whenever possible.
+  - Prefer concrete, version-specific guidance (e.g. "Next.js 15", "React 19", "Tailwind 4") when the user's stack or version is mentioned.
+- If the user explicitly says **not** to use external docs or context7, follow their instruction for that request.
+- Keep answers **concise and practical**, prioritizing:
+  - Clear code examples aligned with current docs
+  - Short justifications for recommended patterns
+  - Any critical breaking changes or gotchas from recent versions
