@@ -8,7 +8,7 @@
             "techStack": ["React", "Next.js", "Tailwind CSS", "TypeScript", "Node.js", "Express", "MongoDB"],
             "functions": "I am a web developer, focusing in website interaction, user interfaces and scallable applications.",
             "image": "https://via.placeholder.com/150",
-            "link": "https://surepay.com"
+            "link": "https://surepay.nl"
         },
         {
             "id": "surepay-2",
@@ -17,6 +17,44 @@
             "description": "Surepay is a payment platform that allows users to pay for their services online.",
             "techStack": ["React", "Next.js", "Tailwind CSS", "TypeScript", "Node.js", "Express", "MongoDB"],
             "functions": "I am a web developer, focusing in website interaction, user interfaces and scallable applications.",
+            "image": "https://via.placeholder.com/150",
+            "link": "https://surepay.com"
+        },
+        {
+            "id": "surepay-3",
+            "name": "Surepay",
+            "dateRange": "2025(current)",
+            "description": "Surepay is a payment platform that allows users to pay for their services online.",
+            "techStack": ["React", "Next.js", "Tailwind CSS", "TypeScript", "Node.js", "Express", "MongoDB"],
+            "functions": "I am a web developer, focusing in website interaction, user interfaces and scallable applications.",
+            "image": "https://via.placeholder.com/150",
+            "link": "https://surepay.com"
+        },
+        {
+            "id": "surepay-4",
+            "name": "Surepay",
+            "dateRange": "2025(current)",
+            "description": "Surepay is a payment platform that allows users to pay for their services online.",
+            "techStack": ["React", "Next.js", "Tailwind CSS", "TypeScript", "Node.js", "Express", "MongoDB"],
+            "functions": "I am a web developer, focusing in website interaction, user interfaces and scallable applications.",
+            "image": "https://via.placeholder.com/150",
+            "link": "https://surepay.com"
+        }
+    ],
+    "work": [
+        {
+            "id": "trim",
+            "name": "Trim.",
+            "title": "Barber app optmized for scheduling",
+            "description": "Surepay is a payment platform that allows users to pay for their services online.",
+            "image": "https://via.placeholder.com/150",
+            "link": "https://surepay.com"
+        },
+        {
+            "id": "financaid",
+            "name": "Financaid",
+            "title": "An app to control your finances",
+            "description": "Surepay is a payment platform that allows users to pay for their services online.",
             "image": "https://via.placeholder.com/150",
             "link": "https://surepay.com"
         }

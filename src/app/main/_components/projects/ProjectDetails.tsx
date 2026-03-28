@@ -1,4 +1,4 @@
-import { Drawer, DrawerContent, DrawerDescription, DrawerHeader, DrawerTitle, DrawerTrigger } from '@/components/ui/drawer'
+import { Drawer, DrawerContent, DrawerDescription, DrawerFooter, DrawerHeader, DrawerTitle, DrawerTrigger } from '@/components/ui/drawer'
 import { Project } from '@/lib/fetch-projects'
 import Image from 'next/image'
 
@@ -28,9 +28,11 @@ function ProjectDetails({ project }: { project: Project }) {
                             <label>Tech stack</label>
                             <p className="text-body-text">{project.techStack.join(', ')}</p>
                         </div>
-                        <p className="text-body-text">{project.link}</p>
                     </section>
                 </div>
+                <DrawerFooter>
+                    <a className="text-body-text" href={project.link} target="_blank" rel="noopener noreferrer">{project.link}</a>
+                </DrawerFooter>
             </DrawerContent>
         </Drawer>
     )

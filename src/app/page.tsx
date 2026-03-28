@@ -3,7 +3,7 @@ import Main from "./main/page";
 
 export default function Home() {
   return (
-    <div className="bg-background mx-28">
+    <div className="bg-background mx-52">
       <NavigationBar />
       <Main />
     </ div>

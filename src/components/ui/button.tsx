@@ -11,12 +11,15 @@ const buttonVariants = cva(
       variant: {
         pink: "font-roboto bg-pink-eletric-500 text-pink-button-text hover:bg-green-eletric-500/90 hover:text-green-button-text",
         link: "text-body-text underline underline-offset-4 hover:underline hover:text-body-text/60 cursor-pointer",
+        outline:
+          "rounded-md border border-input bg-background text-sm font-medium shadow-sm hover:bg-accent hover:text-accent-foreground",
       },
       size: {
         default: "h-9",
         xs: "h-6 gap-1 text-xs [&_svg:not([class*='size-'])]:size-3",
         sm: "h-8 gap-1.5",
         lg: "h-10",
+        icon: "size-9",
       },
     },
     defaultVariants: {
