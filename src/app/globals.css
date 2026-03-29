@@ -10,7 +10,7 @@
   --neutral-700: #525252;
   --neutral-600: #737373;
   --neutral-500: #a3a3a3;
-  --neutral-200: #FAFAFA;
+  --neutral-200: #E2E8F0;
   --neutral-100: #ffffff;
 
   --green-eletric-500: #89F336;
@@ -72,8 +72,11 @@
   --color-background: var(--neutral-200);
   --body-text: var(--neutral-900);
 
+  --color-white: var(--neutral-100);
+
   --color-green-eletric-500: var(--green-eletric-500);
   --color-green-button-text: var(--neutral-900);
+  
 
   --color-pink-eletric-500: var(--pink-eletric-500);
   --color-pink-button-text: var(--neutral-100);

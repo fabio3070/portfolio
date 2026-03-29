@@ -7,10 +7,10 @@ export default async function Projects() {
   const projects = await fetchProjects();
 
   return (
-    <section id={SectionIds.Projects} className='min-h-screen flex flex-col justify-end pb-32'>
+    <section id={SectionIds.Projects} className='bg-white min-h-screen rounded-lg flex flex-col justify-end p-8'>
       <div>
-        <h1 className="text-5xl">PROJECTS</h1>
-        <div className="h-2 bg-pink-eletric-500 w-38 mt-4"></div>
+        <h1 className="text-3xl">PROJECTS</h1>
+        <div className="h-2 bg-pink-eletric-500 w-38 mt-2"></div>
         <section className='mt-8'>
           {projects.map((project, index) => (
             <>
