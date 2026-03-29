@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins, Roboto } from "next/font/google";
 import "./globals.css";
+import SmoothScroll from "@/components/SmoothScroll";
 
 const geistMono = Poppins({
   variable: "--font-poppins-mono",
@@ -29,7 +30,9 @@ export default function RootLayout({
       <body
         className={`${geistMono.variable} ${geistRoboto.variable} antialiased`}
       >
-        {children}
+        <SmoothScroll>
+          {children}
+        </SmoothScroll>
       </body>
     </html>
   );

@@ -9,7 +9,7 @@ export default async function Projects() {
   return (
     <section id={SectionIds.Projects} className='bg-white min-h-screen rounded-3xl flex flex-col justify-end p-8'>
       <div>
-        <h1 className="text-3xl">PROJECTS</h1>
+        <h1 className="text-xl">PROJECTS</h1>
         <div className="h-2 bg-pink-eletric-500 w-38 mt-2"></div>
         <section className='mt-8'>
           {projects.map((project, index) => (
