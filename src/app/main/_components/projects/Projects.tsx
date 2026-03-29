@@ -7,7 +7,7 @@ export default async function Projects() {
   const projects = await fetchProjects();
 
   return (
-    <section id={SectionIds.Projects} className='bg-white min-h-screen rounded-lg flex flex-col justify-end p-8'>
+    <section id={SectionIds.Projects} className='bg-white min-h-screen rounded-3xl flex flex-col justify-end p-8'>
       <div>
         <h1 className="text-3xl">PROJECTS</h1>
         <div className="h-2 bg-pink-eletric-500 w-38 mt-2"></div>
